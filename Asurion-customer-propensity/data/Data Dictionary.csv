@@ -1,0 +1,60 @@
+﻿Customer demographics,,,,
+Variable,Data Type,Range,Data Source,Description
+CallID,String,,,This is the unique identifier for a call that took place between an Asurion call specialist and a customer
+metroarea,String (categorical),,,"This is the customer's county metro category (i.e. urban, rural, suburban)"
+age,Integer,,,This is the customer's age 
+age_range_dbc,String (categorical),,,This is the customer's age category. It is denoted by a letter and each category has a is bounded by a gap of 10 years (i.e. A: 11 - 20)
+marital_status,String (categorical),,,This is the customer's marital status.
+occupation_category_dbc,String (categorical),,,This is the customer's occupational category. It is denoted byb the sector within which the customer works in.
+education_dbc,String (categorical),,,This is the highest education level attained by the customer
+dwelling_type,String (categorical),,,This is the dwelling condition of the customer
+household_income_dbc,String (categorical),,,This is a categorical variable based on the amount of money the customers' household earns in a year.
+home_ownership,String (categorical),,,This is a categorical variable that describes whether the customer owns a home or not.
+length_of_residence_range_dbc,String (categorical),,,This is a categorical variable that defines how long the person has spent at their currenr residence.
+home_value,Integer,,,This is the monetary value of the house the customer lives in
+estimated_home_value_range_dbc,String (categorical),,,This is a categorical variable for the customer's home value
+estimated_networth_dbc,String (categorical),,,This is a categorical variable describing the customer's networth. It assigns a letter to the customer based on which range of values their net worth falls into.
+household_composition_rollup,String (categorical),,,"This provides information on whether a male adult, a female adult and children form the composition of the customer's household "
+number_of_children_in_household,String (categorical),,,"This is a categorical variable for highlighting how many children live in the customer's household (i.e. 1, 2, 3, 4 or more)"
+presence_of_children,String (categorical),,,This is a categorical variable for verifiying whether the customer's household has children or not
+smart_home_appliances,String (categorical),,,This is a categorical variable for verifiying whether the customer's household  has smart home appliances or not
+smart_home_security,String (categorical),,,This is a categorical variable for verifiying whether the customer's household  has smart home security or not
+technodoption_class,String (categorical),,,This is a categorical variable for describing the technological class of the customer's household  (i.e. how modern the technological gadgets are within their household)
+hh_income,String (categorical),,,This is a categorical variable used to describe the income level of the customer's household
+age_class,String (categorical),,,This is a categorical variable used to denote the customer's age group
+hh_education,String (categorical),,,This is a categorical variable used to denote the highest education level attained within the customer's household
+hh_composition,String (categorical),,,This is a categorical variable used to denote the customer's household grouping 
+hh_tenure,String (categorical),,,This is a categorical variable used to describe the customer's status over the course of residing within the household
+urbanicity,String (categorical),,,This is a categorical variable for describing the urban status of the area within which the customer lives
+claritas_hh_count,Integer,,,This is an integer variable that captures the number of households within the customer's vicinity
+median_income,Integer,,,This is an integer variable that captures the median income of the county the customer lives in
+total_population,Integer,,,This is an integer variable that captures the total population of the county within which the customer lives
+perc_female,Float,,,This is a float variable that describes the proportion of female living in the customer's county
+perc_under18,Float,,,This is a float variable that describes the proportion of people under the age of 18 living in the customer's county
+perc_over65,Float,,,This is a float variable that describes the proportion of people over the age of 65 living in the customer's county
+perc_white,Float,,,This is a float variable that describes the proportion of white people living in the customer's county
+perc_black,Float,,,This is a float variable that describes the proportion of black people living in the customer's county
+population_density,Float,,,This is a float variable that describes the population density of the customer's county
+,,,,
+Customer interactions,,,,
+Variable,Data Type,Range,Data Source,Description
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+Transcripts,,,,
+Variable,Data Type,Range,Data Source,Description
+,,,,
+,,,,
+,,,,
+,,,,
+Criterion/Y,,,,
+Variable,Data Type,Range,Data Source,Description
+eligible,Boolean (TRUE/FALSE),,,This is a boolean variable that describes whether the customer is eligible for the offer
+accepted_flg,Boolean (TRUE/FALSE),,,This is a boolean variable that describes whether the customer accepted the offer
+sales_offer_date,Date,,,This is a date variable representing the date of the offer provided
+7_day_churn_num,Integer,,,This is an integer variable describing the number of contracts that the customer stopped within 7 days of accepting the offer
+30_day_churn_num,Integer,,,This is an integer variable describing the number of contracts that the customer stopped within 30 days of accepting the offer
+90_day_churn_num,Integer,,,This is an integer variable describing the number of contracts that the customer stopped within 90 days of accepting the offer
+180_day_churn_num,Integer,,,This is an integer variable describing the number of contracts that the customer stopped within 180 days of accepting the offer
