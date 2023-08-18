@@ -91,7 +91,7 @@ All files which appear in the repo should be able to run, and not contain error 
 
 **Zoom link**: 
 
-**Powerpoint Slides**: https://docs.google.com/presentation/d/1XPfQpSYU4YoBbkk8rNB3jkz6594LarUfrD92c2Ntsdw/edit?usp=sharing
+**Powerpoint Slides**:
 
 # Resources 
 * **Python usage**: Whirlwind Tour of Python, Jake VanderPlas ([Book](https://learning.oreilly.com/library/view/a-whirlwind-tour/9781492037859/), [Notebooks](https://github.com/jakevdp/WhirlwindTourOfPython))
@@ -102,13 +102,3 @@ All files which appear in the repo should be able to run, and not contain error 
 * **nbdev**: [Overview](https://nbdev.fast.ai/), [Tutorial](https://nbdev.fast.ai/tutorial.html)
 * **Git tutorials**: [Simple Guide](https://rogerdudler.github.io/git-guide/), [Learn Git Branching](https://learngitbranching.js.org/?locale=en_US)
 * **ACCRE how-to guides**: [DSI How-tos](https://github.com/vanderbilt-data-science/how-tos)  
-
-# Contact Info
-
-Tom Qian, Ph.D.<br />
-Data Scientist, Asurion <br />
-tom.qian@asurion.com
-
-Peng "Dana" Zhang, Ph.D.<br />
-Course Instructor<br />
-peng.zhang@vanderbilt.edu
